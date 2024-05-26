@@ -76,7 +76,7 @@ body {
 
 .home-content h3 {
     font-size: 35px;
-    font-weight: 500; 
+    font-weight: 500;
     margin-top: 30px;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -170,14 +170,14 @@ body {
     object-fit: cover;
     margin-top: 90px;
     margin-left: 70px;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
     border: 1px solid rgb(18, 18, 18);
 }
 
 .about-txt h2 {
     font-size: 60px;
-    color: rgb(96, 77, 77); 
-    margin-top: 130px; 
+    color: rgb(96, 77, 77);
+    margin-top: 130px;
 }
 
 .about-txt h2 span {
@@ -196,7 +196,7 @@ body {
     color: rgb(140, 95, 95);
     font-size: 20px;
     margin-bottom: 4rem;
-    margin-right:30%;
+    margin-right: 30%;
 
 }
 
@@ -209,7 +209,7 @@ body {
     background: #1d1b26;
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem; 
+    margin-bottom: 4rem;
     margin-top: 60px;
 
 }
@@ -217,7 +217,7 @@ body {
 .subtitle {
     text-align: center;
     font-size: 60px;
-    padding-bottom: 70px; 
+    padding-bottom: 70px;
     margin-top: 65px;
 }
 
@@ -577,7 +577,7 @@ body {
 }
 
 .radial-bar .text {
-    margin-top: 21px; 
+    margin-top: 21px;
     width: 100;
     position: absolute;
     text-align: center;
@@ -587,43 +587,50 @@ body {
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
 }
-.main-text{
-  padding-top: 80px;
-  margin-top: 100px;
+
+.main-text {
+    padding-top: 80px;
+    margin-top: 100px;
 }
-.main-text h2{
+
+.main-text h2 {
     font-size: 60px;
     line-height: 1;
     text-align: center;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
-.main-text h2 span{
+
+.main-text h2 span {
     color: aqua;
 }
-.Protfolio-content{
+
+.Protfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
 }
-.row{
-   position: relative;
-   overflow: hidden;
-   border-radius: 8px;
-   cursor: pointer;
+
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
 }
-.row img{
+
+.row img {
     width: 100%;
     height: 350px;
-    border-radius: 8px; 
+    border-radius: 8px;
     display: block;
     transition: transform 0.5s;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
     margin-top: 60px;
 }
-.layer{
+
+.layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(black,aqua);
+    background: linear-gradient(black, aqua);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -637,18 +644,21 @@ body {
     padding: 0 40px;
     transition: height 0.5s;
 }
-.layer h5{
+
+.layer h5 {
     font-size: 20px;
     color: aliceblue;
     font-weight: 600;
     margin-bottom: 15px;
 }
-.layer p{
+
+.layer p {
     color: aliceblue;
     font-size: 1rem;
     line-height: 1.8;
 }
-.layer i{
+
+.layer i {
     margin-top: 20px;
     font-size: 20px;
     background: white;
@@ -659,14 +669,16 @@ body {
     justify-content: center;
     border-radius: 50%;
 }
-.row:hover img{
+
+.row:hover img {
     transform: scale(1.1);
 }
-.row:hover .layer{
-    height:100%;
+
+.row:hover .layer {
+    height: 100%;
 }
 
-.contact{
+.contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -675,47 +687,56 @@ body {
     margin-top: 130px;
     padding-top: 130px;
 }
-.contact h2{
+
+.contact h2 {
     font-size: 80px;
     line-height: 1;
     text-align: center;
-    align-items: center;  
+    align-items: center;
     margin-bottom: 75px;
 }
-.contact-text h2 span{
-    color: aqua;    
+
+.contact-text h2 span {
+    color: aqua;
 }
-.contact h4{
+
+.contact h4 {
     margin: 15px 0;
     color: antiquewhite;
     font-size: 25px;
     font-weight: 600;
 }
+
 .contact p {
-     font-size:21px ;
-     color: aliceblue;
-     margin-bottom: 2rem;
-     line-height: 30px;
+    font-size: 21px;
+    color: aliceblue;
+    margin-bottom: 2rem;
+    line-height: 30px;
 }
-.contact-list{
+
+.contact-list {
     margin-bottom: 3rem;
 }
-.contact-list li{
+
+.contact-list li {
     margin-bottom: 10px;
     display: block;
 }
-.contact-list i{
+
+.contact-list i {
     display: inline-block;
     color: aqua;
     font-size: 20px;
     font-weight: 600;
     transition: all.40s ease;
 }
-.contact-list li:hover{
+
+.contact-list li:hover {
     transform: scale(1.01) translateY(-50px);
     color: aqua;
 }
-.contact-icons i{
+
+.contact-icons i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -726,38 +747,44 @@ body {
     border-radius: 50%;
     font-size: 20px;
     color: aqua;
-    margin: 30px 10px; 
-    transition: .5s ease; 
+    margin: 30px 10px;
+    transition: .5s ease;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s* var(--i));
 }
-.contact-icons i:hover{
+
+.contact-icons i:hover {
     background-color: aqua;
     color: #090909;
     box-shadow: 0px 0px 20px aqua;
 }
-.contact-form{
+
+.contact-form {
     position: relative;
 }
-.contact-form form input ,form textarea{
+
+.contact-form form input,
+form textarea {
     border: none;
     outline: none;
-    width: 90%; 
-    padding:18px;
-    background:rgb(96, 77, 77);
+    width: 90%;
+    padding: 18px;
+    background: rgb(96, 77, 77);
     color: black;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
 }
-.contact-form textarea{
+
+.contact-form textarea {
     resize: none;
     height: 220px;
 }
-.contact-form form .send{
-    display:inline-block;
+
+.contact-form form .send {
+    display: inline-block;
     padding: 12px 28px;
     background: aqua;
     border-radius: 40px;
@@ -767,68 +794,36 @@ body {
     text-decoration: none;
     font-weight: 600;
     opacity: 0;
-    animation:slideTop 1s ease forwards ;
+    animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px aqua; 
+    box-shadow: 0 0 5px aqua;
 }
-.contact-form .send :hover{
-    box-shadow: 0 0 5px aqua; 
+
+.contact-form .send :hover {
+    box-shadow: 0 0 5px aqua;
 }
-.last-text p{
+
+.last-text p {
     width: 100;
     text-align: center;
     padding: 25px;
-    background:rgb(7,85,91) ;
+    background: rgb(7, 85, 91);
     font-weight: 70px;
 }
-.top{
+
+.top {
     position: fixed;
     bottom: 2.1rem;
     right: 2.1rem;
 }
-.top i{
-    color:black;
+
+.top i {
+    color: black;
     background: aqua;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes slideBottom {
     0% {
@@ -865,3 +860,16 @@ body {
         opacity: 1;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
